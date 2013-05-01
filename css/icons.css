@@ -1,0 +1,478 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
+@font-face {
+  font-family: "CONDENSEicon";
+  src: url("../fonts/CONDENSEicon.eot");
+  src: url("../fonts/CONDENSEicon.eot?#iefix") format("embedded-opentype"), url("../fonts/CONDENSEicon.woff") format("woff"), url("../fonts/CONDENSEicon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: "CONDENSEicon";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+home
+:A
+drafft
+:B
+pen
+marker
+:C
+fountain-pen
+:D
+note
+:E
+mail
+email
+message
+:F
+edit
+:G
+new
+new-page
+new-file
+:H
+file
+:I
+clipboard
+paste
+:J
+book
+:K
+album
+door
+exit
+quit
+:L
+library
+:M
+tray
+in-tray
+:N
+out-tray
+:O
+folder
+directory
+:P
+calc
+:Q
+pc
+notepc
+computer
+:R
+monitor
+desktop
+desktoppc
+:S
+phone
+smartphone
+:T
+tablet
+:U
+app
+window
+:V
+printer
+:W
+mouse
+:X
+web
+internet
+:Y
+node
+trans
+:Z
+tag
+:a
+booknmark
+:b
+measure
+:c
+schedule
+:d
+calender
+:e
+twit
+speak
+:f
+chat
+communicate
+commnets
+:g
+message
+board
+answer
+reply
+commnet
+:h
+video
+movie
+movie-file
+:i
+phote
+picture-file
+:j
+art
+:k
+trash
+:l
+cd
+dvd
+rom
+:m
+lock
+:n
+unlook
+:o
+antenna
+wireless
+:p
+database
+strage
+:q
+apps
+contents
+objects
+:r
+chart
+:s
+gruph
+:t
+stock
+:u
+config
+option
+setting
+gear
+command
+:v
+configs
+options
+settings
+gears
+commands
+:w
+landmark
+pin
+:x
+locate
+map
+:y
+compass
+gps
+:z
+cart
+trolley
+:0
+in-cart
+put-cart
+:1
+out-cart
+remove-cart
+:2
+voice
+mic
+announce
+recode
+:3
+rank
+king
+:4
+rain
+unbrella
+parasol
+:5
+fine
+sun
+:6
+snow
+:7
+thunder
+:8
+temp
+temperature
+:9
+time
+clock
+:!
+cloud
+:"
+cloud-download
+:#
+cloud-upload
+:$
+energy
+battery
+full-power
+:%
+low-power
+low-battery
+:&
+charge
+:'
+flag
+:(
+idea
+ramp
+bulb
+light
+:)
+cam
+camera
+:*
+movie-cam
+theater
+:+
+tv
+:,
+bag
+:-
+suitcase
+:+
+present
+:/
+free-dial
+::
+tel
+:;
+call
+dial
+:
+receiver
+:=
+coffee
+cafe
+break-time
+:>
+work
+necktie
+work
+:?
+plan
+:@
+zoom
+:[
+zoome-in
+:/
+zoom-out
+:]
+eye
+look
+:^
+chain
+link
+:-
+clip
+copy
+:`
+power
+:{
+repeat
+:|
+cycle
+:}
+target
+frame
+:~
+speaker
+volume
+:Ä
+volume-up
+:Å
+volume-down
+:Ç
+mute
+volume-mute
+:É
+run
+play
+player-play
+:Ñ
+stop
+player-stop
+:Ö
+pause
+player-pause
+:Ü
+rewind
+player-rewind
+:á
+player-first
+player-top
+:à
+player-last
+player-end
+:ã
+fast-rewind
+player-fast-rewind
+:â
+player-repeat
+:ä
+shuffle
+player-shuffle
+:å
+arrow-down
+:ç
+arrow-left
+arrow-back
+:é
+arrow-top
+arrow-up
+è
+arrow-right
+arrow-next
+:ê
+arrow-open-in
+share
+:ë
+send
+send-to
+:ì
+download
+:í
+upload
+:î
+add
+plus
+:ï
+remove
+minus
+:ñ
+check
+:ó
+cross
+:ò
+arrow
+:ô
+:cross-arrow
+:ö
+full-wind
+:õ
+mark-next
+:ú
+mark-back
+:ù
+mark-down
+:û
+mark-up
+:ü
+favorite
+star
+:–
+hart
+:—
+music
+:„
+defend
+:ˆ
+cut
+:˜
+info
+information
+:¯
+user
+man
+gender
+:˘
+woman
+female
+:˙
+users
+:‰
+groups
+:¸
+wifi
+:˝
+feed
+:˛
+menu
+:ˇ
+alert
+alerm
+bell
+:†
+bad
+no
+:°
+good
+yes
+:¢
+
+
+
+pen
+/* Use the following CSS code if you want to have a class per icon */
+/*Instead of a list of all class selectors,
+ *you can use the generic selector below, but it's slower:
+ *[class*="coi-"]:before { */
+.fui-volume-16:before, .fui-video-16:before, .fui-time-16:before, .fui-settings-16:before, .fui-plus-16:before, .fui-new-16:before, .fui-menu-16:before, .fui-man-16:before, .fui-mail-16:before, .fui-lock-16:before, .fui-location-16:before, .fui-heart-16:before, .fui-eye-16:before, .fui-cross-16:before, .fui-cmd-16:before, .fui-checkround-16:before, .fui-checkmark-16:before, .fui-camera-16:before, .fui-calendar-16:before, .fui-bubble-16:before {
+  font-family: "CONDENSEicon";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.fui-volume-16:before {
+  content: "\e000"; }
+
+.fui-video-16:before {
+  content: "\e001"; }
+
+.fui-time-16:before {
+  content: "\e002"; }
+
+.fui-settings-16:before {
+  content: "\e003"; }
+
+.fui-plus-16:before {
+  content: "\e004"; }
+
+.fui-new-16:before {
+  content: "\e005"; }
+
+.fui-menu-16:before {
+  content: "\e006"; }
+
+.fui-man-16:before {
+  content: "\e007"; }
+
+.fui-mail-16:before {
+  content: "\e008"; }
+
+.fui-lock-16:before {
+  content: "\e009"; }
+
+.fui-location-16:before {
+  content: "\e00a"; }
+
+.fui-heart-16:before {
+  content: "\e00b"; }
+
+.fui-eye-16:before {
+  content: "\e00c"; }
+
+.fui-cross-16:before {
+  content: "\e00d"; }
+
+.fui-cmd-16:before {
+  content: "\e00e"; }
+
+.fui-checkround-16:before {
+  content: "\e00f"; }
+
+.fui-checkmark-16:before {
+  content: "\e010"; }
+
+.fui-camera-16:before {
+  content: "\e011"; }
+
+.fui-calendar-16:before {
+  content: "\e012"; }
+
+.fui-bubble-16:before {
+  content: "\e013"; }
